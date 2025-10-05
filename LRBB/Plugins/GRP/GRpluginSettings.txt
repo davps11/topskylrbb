@@ -2,7 +2,7 @@ System_TagColor=2
 System_UseReportedGS=0
 
 System_SchengenArea=LT
-System_SchengenArea_Exclude=A,B,C,D,E,F,G,H,K,LA,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN,LO,LP,LQ,LR,LS,LU,LV,LW,LX,LY,LZ,M,N,O,P,R,S,T,U,V,W,Y,Z
+System_SchengenArea_Exclude=A,B,C,D,E,F,G,H,K,LA,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN,LO,LP,LQ,LS,LU,LV,LW,LX,LY,LZ,M,N,O,P,R,S,T,U,V,W,Y,Z
 
 System_State_OnFreq=ON
 System_State_StartUp=START
