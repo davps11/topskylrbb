@@ -5,4 +5,4 @@ scripts/
 *.ese
 *.sct
 *.rwy
-LRBB/NavData/
+LRBB/NavData/*
