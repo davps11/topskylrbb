@@ -20,9 +20,11 @@ Settings	aircraft	\LRBB\ICAO\ICAO_Aircraft.txt
 Settings	airways	\LRBB\NavData\airways.txt
 Settings	airportcoords	\LRBB\NavData\icao.txt
 ASRFastKeys	1	\LRBB\ASR\TopSky\ACC_APP.asr
-RecentFiles	Recent1	\LRBB\ASR\TopSky\ACC_APP.asr
 ASRFastKeys	2	\LRBB\ASR\TopSky\TWR.asr
-RecentFiles	Recent2	\LRBB\ASR\TopSky\TWR.asr
+ASRFastKeys	3	\LRBB\ASR\TopSky\LROP.asr
+RecentFiles	Recent1	\LRBB\ASR\TopSky\LROP.asr
+RecentFiles	Recent2	\LRBB\ASR\TopSky\ACC_APP.asr
+RecentFiles	Recent3	\LRBB\ASR\TopSky\TWR.asr
 Plugins	Plugin0	\LRBB\Plugins\AFVBridge\AfvEuroScopeBridge.dll
 Plugins	Plugin1	\LRBB\Plugins\VCH\VCH.dll
 Plugins	Plugin0Display0	Standard ES radar screen
@@ -55,4 +57,4 @@ TeamSpeakVccs	Ts3DialogLeft	200
 TeamSpeakVccs	Ts3DialogTop	300
 TeamSpeakVccs	Ts3DialogRight	1009
 TeamSpeakVccs	Ts3DialogBottom	870
-Settings	sector	\LRBB-ROVACC-FULL_20250616.sct
+LastSession	atis_freq4	118000
