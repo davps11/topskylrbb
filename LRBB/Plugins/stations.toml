@@ -1,0 +1,118 @@
+[stations]
+selected_profile = "LRBB"
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+
+[stations.profiles.Default.aliases]
+
+[stations.profiles.LRBB]
+include = [
+    "UKLV_CTR",
+    "UKR_CTR",
+    "UKBV_CTR",
+    "UKOV_CTR",
+    "LR*",
+    "LU",
+    "LHCC_CTR",
+    "LHCC_U_CTR",
+    "LHCC_K_CTR",
+    "LHCC_2_CTR",
+    "LHCC_1_CTR",
+    "LHCC_N_CTR",
+    "LHCC_I_CTR",
+    "LHDC*",
+    "ADR*",
+    "LYBA*",
+    "LBSR*",
+    "LZBB_CTR",
+    "LZBB_U_CTR",
+    "EPWW_CTR",
+    "EPWW_U_CTR",
+    "EPWW_R_CTR",
+    "EPWW_J_CTR",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+
+[stations.profiles.LRBB.aliases]
+"118.100" = "TWR RMO"
+"124.030" = "TWR CK"
+"130.250" = "ADR_E UPP"
+"129.230" = "BEO UPP"
+"135.355" = "BEO_N UPP"
+"125.925" = "BEO_E UPP"
+"125.205" = "TWR BANEASA"
+"123.530" = "APP ARAD"
+"119.755" = "TWR DELTA"
+"134.025" = "BEO_N LOW"
+"121.600" = "GND TIMIS"
+"135.205" = "BPS_W TOP 365+"
+"130.750" = "ADR UPP"
+"119.180" = "TWR MURES"
+"133.000" = "FIC BPS_E"
+"121.180" = "ACC DINAR"
+"118.630" = "TWR BRASOV"
+"127.075" = "ACC BANAP"
+"118.805" = "TWR OTOPENI"
+"120.420" = "BEO_E LOW"
+"118.455" = "TWR ORADEA"
+"118.705" = "TWR CLUJ"
+"129.530" = "TWR CRAIOVA"
+"120.980" = "TWR BACAU"
+"118.325" = "FMP SUPV"
+"134.700" = "VARNA_E"
+"118.855" = "TWR BAIA_M"
+"132.950" = "VARNA_W"
+"130.550" = "ADR_E LOW"
+"122.030" = "ACC KONEL"
+"119.680" = "APP NAPOC_S"
+"123.775" = "BEO LOW"
+"119.350" = "FIC BPS_N"
+"129.955" = "TWR SUCEAVA"
+"119.655" = "TWR SATU_M"
+"127.155" = "APP DIR"
+"127.860" = "BPS_E UPP 345+"
+"128.975" = "ACC MOLDO"
+"129.100" = "SOFIA_E"
+"135.555" = "BPS_N UPP 345+"
+"125.910" = "AFIS DEBRECEN"
+"119.955" = "TWR IASI"
+"132.790" = "BPS_E TOP 365+"
+"133.300" = "APP RMO"
+"129.950" = "GND BANEASA"
+"121.855" = "GND OTOPENI"
+"127.025" = "MIL PERLA"
+"121.955" = "DEL OTOPENI"
+"130.230" = "ACC BUDMO"
+"130.600" = "FIC SOFIA"
+"132.865" = "ACC _365+"
+"121.800" = "GND RMO"
+"130.000" = "ADR LOW"
+"119.415" = "APP BUC"
+"122.905" = "APP CK"
+"120.380" = "BPS_E LOWER"
+"133.535" = "BPS_W UPP 345+"
+"120.105" = "TWR TIMIS"
+"134.380" = "ACC _345+"
+"118.230" = "TWR ARAD"
+"122.100" = "MIL RUBIN"
+"131.225" = "SOFIA_W"
+"122.050" = "TWR MARCU"
+"129.400" = "FIC BUC"
+"126.430" = "APP NAPOC"
+"121.305" = "TWR SIBIU"
