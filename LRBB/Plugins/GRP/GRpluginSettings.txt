@@ -35,6 +35,7 @@ Color_WBackground4=24,24,24
 Color_WBorder=128,128,128
 Color_WForeground=250,250,250
 Color_WForeground2=255,255,255
+Color_WForeground3=255,255,255
 Color_WSlider_Bg=143,143,143
 Color_WTitleBar=128,128,128
 Color_WTitleText=32,32,32
@@ -78,12 +79,15 @@ Track_PredictionLine_TWR=0
 Track_HistoryDots_GND=5
 Track_HistoryDots_APP=7
 
+
+/--------------------SYSTEM SETTINGS---------------------
+
 System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LB,LD,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LR,LS,LZ
 
-System_State_OnFreq=ON
+System_State_OnFreq=SHOW
 System_State_StartUp=START
 System_State_Push=PUSH
-System_State_Taxi_In=TAXI
+System_State_Taxi_In=ARRV
 System_State_Taxi_Out=TAXI
 System_State_LineUp=LINUP
 System_State_Depa=DEPART
@@ -94,7 +98,7 @@ Equip_ProMode=0
 
 Equip_ModeS=WZLCISG
 System_AutoAssignDist=20
-System_AutoAssignDist=LROP,50
+System_AutoAssignDist=EPWA,50
 System_RwyArea=30
 System_RwyBufferArea=60
 System_UseReportedGS=1
@@ -105,13 +109,18 @@ System_TowerMode_AltFilter_Low=0
 RawVideo_MaxHistory=4
 RawVideo=1
 
+/--------------------WINDOWS---------------------
+
+Window_APP_Draw_Runways=0
 Window_APP_DefPos=1469,505
 Window_APP_DefSize=450,450
 Window_APP_Scale=18
-Window_APP_AltFilter=16500
+Window_APP_AltFilter=6500
 Window_APP_Extensions_TickWidth=0.3
 Window_APP_Rotation=0
 Window_APP_DefPos=1469,505
+
+/--------------------TAG---------------------
 
 Label_ADEP=0,0,1,0
 Label_ADES=1,0,1,0
@@ -139,55 +148,67 @@ Label_WTC=1,0,1,0
 Label_WTG=0,0,0,0
 Label_WTG_EU=0,0,0,0
 
+/-----APP Window Departure Tag-----
 Label=APP:DEP:0:SI,0,0,0:ASSR_E,0,1,1:ALRT,0,1
-Label=APP:DEP:1:CALLSIGN,0,1:WTC,0,1
-Label=APP:DEP:2:AFL+VS,0,0,123
-Label=APP:DEP:3:
+Label=APP:DEP:1:CALLSIGN,0,1:COMM,0,0,1:ATYP,2,2:WTC,0,0
+Label=APP:DEP:2:AFL+VS,0,0,123:GS,0,0,0:DEP,0,1
+Label=APP:DEP:3:CFL,0,0,13:ADES,0,1:RMK,0,1
 
+/-----APP Window Arrival Tag-----
 Label=APP:ARR:0:SI,0,0,0:ASSR_E,0,1,1:ALRT,0,1
 Label=APP:ARR:1:CALLSIGN,0,1:COMM,0,0,1:ATYP,2,2:WTC,0,0
 Label=APP:ARR:2:AFL+VS,0,0,123:GS,0,0,0:ADES,0,1
 Label=APP:ARR:3:CFL,0,0,13:RMK,0,1
 
+/-----APP Window Uncorrelated Tag-----
 Label=APP:UNC:0:SI,0,0,0:ALRT,0,1
 Label=APP:UNC:1:CALLSIGN,0,1:COMM,0,0,1
 Label=APP:UNC:2:AFL+VS,0,0,123:GS,0,2,0
 Label=APP:UNC:3:RMK,0,1
 
+/-----APP Window Other Tag-----
 Label=APP:OTH:0:SI,0,0,0:ALRT,0,1
 Label=APP:OTH:1:CALLSIGN,0,1:COMM,0,0,1:ATYP,2,2:WTC,0,0
 Label=APP:OTH:2:AFL+VS,0,0,123:GS,0,0,0:ADES,0,1
 Label=APP:OTH:3:CFL,0,0,13:RMK,0,1
 
+/-----Ground Mode Departure Tag-----
 Label=GND:DEP:0:ASSR_E,0,0,1:ALRT,0,1
 Label=GND:DEP:1:CALLSIGN,0,0:COMM,0,0,1:ATYP,0,2:WTC,0,0,0
 Label=GND:DEP:2:TSSR,0,1,1:DRWY,0,1,1:RMK,0,1
 Label=GND:DEP:3:
 
+/-----Ground Mode Arrival Tag-----
 Label=GND:ARR:0:ASSR_E,0,0,1:ALRT,0,1
 Label=GND:ARR:1:CALLSIGN,0,0:COMM,0,0,1:ATYP,0,2:WTC,0,0,0
 Label=GND:ARR:2:TSSR,0,1,1:STAND,0,1:RMK,0,1
 Label=GND:ARR:3:
 
+/-----Ground Mode Uncorrelated Tag-----
 Label=GND:UNC:0:ALRT,0,0
 Label=GND:UNC:1:CALLSIGN,0,0:COMM,0,0,1:FLTID,0,1
 Label=GND:UNC:2:TSSR,0,1,1:RMK,0,0
 Label=GND:UNC:3:
 
+/-----Ground Mode Other Tag-----
 Label=GND:OTH:0:ALRT,0,0
 Label=GND:OTH:1:CALLSIGN,0,0:COMM,0,0,1:ATYP,0,2:WTC,0,0,0
 Label=GND:OTH:2:TSSR,0,1,1:RMK,0,1
 Label=GND:OTH:3:
 
+/-----Tower Mode Departure Tag-----
 Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,2,1
 Label=TWR:DEP:1:CALLSIGN,0,0:COMM,0,0,1
 Label=TWR:DEP:2:AFL,0,0,13:VS,0,0,2:GS,0,1,0
 Label=TWR:DEP:3:ATYP,0,1:WTC,0,1
 
+/-----Tower Mode Arrival Tag-----
 Label=TWR:ARR:0:ALRT,0,0:ASSR_E,0,2,1
 Label=TWR:ARR:1:CALLSIGN,0,0:COMM,0,0,1
 Label=TWR:ARR:2:AFL,0,0,13:VS,0,0,2:GS,0,1,0
 Label=TWR:ARR:3:ATYP,0,0:WTC,0,0:ADES,0,1,1:STAND,0,1:RMK,0,1
+
+/--------------------LISTS---------------------
 
 List_Arrival=0,1215,50
 List_Arrival_RWY=0
@@ -213,7 +234,7 @@ List_Departure_SID_MaxChars=3
 
 List_Inbound_DTT=1
 List_Inbound_TYPE=1
-List_Inbound_WTC=0
+List_Inbound_WTC=1
 List_Inbound_ETA=1
 List_Inbound_STAND=1
 List_Inbound_WTC_Type=0
@@ -222,9 +243,11 @@ List_Outbound_TYPE=0
 List_Outbound_WTC=1
 List_Outbound_SID=1
 List_Outbound_ADES=0
-List_Outbound_ExpiryTime=220
+List_Outbound_ExpiryTime=420
 List_Outbound_WTC_Type=0
 List_Outbound_SID_MaxChars=3
+
+/--------------------ALERTS---------------------
 
 System_APM=0
 System_RVM=0
@@ -240,16 +263,28 @@ System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
 System_RMCA_RWY_Closure_LVP=40
 System_RMCA_RWY_Closure_LVP_Info=20
-System_RMCA_APP_Time=20
-System_RMCA_APP_Time_Info=35
+System_RMCA_APP_Time=15
+System_RMCA_APP_Time_Info=30
 System_RMCA_APP_Time_LVP=30
-System_RMCA_APP_Time_LVP_Info=50
+System_RMCA_APP_Time_LVP_Info=45
 System_RMCA_NoLineUpState=0
 
+System_Alert_Transfer_Info_Label=NO TRANSFER
+
+/--------------------AIRPORT SETTINGS---------------------
+
 [LROP]
-Airport_Elevation=314
-Airport_Radius=2.0
+Airport_Dep_Transfer_Dist=10
 Airport_Dep_Transfer_Height=2000
+Airport_Elevation=314
 Airport_LVP=1
+Airport_ModeA=2
+Airport_ModeS=2
+Airport_Radius=2.0
+Airport_Runway_Area_LVP=08R:N044.33.46.106:E026.04.31.180:N044.33.49.867:E026.05.10.594:N044.33.58.964:E026.07.21.277:N044.34.10.073:E026.07.18.976:N044.34.05.790:E026.06.27.197:N044.34.01.072:E026.05.08.805:N044.33.56.852:E026.04.36.376:N044.33.55.960:E026.04.29.827
+Airport_Runway_Area_LVP=08L::N044.34.37.562:E026.04.58.740:N044.34.50.533:E026.07.46.310:N044.34.45.156:E026.07.45.072:N044.34.43.182:E026.07.38.819:N044.34.39.254:E026.06.45.013:N044.34.37.965:E026.06.39.318:N044.34.34.393:E026.05.56.554:N044.34.33.973:E026.05.51.061:N044.34.35.169:E026.05.50.419:N044.34.32.707:E026.05.05.977:N044.34.32.170:E026.04.58.943
+Airport_SMR_Raw=2
+Airport_SMR_Track=2
+GroundLabel_Filter_Stby=1
 Window_APP=1,1,1469,505,450,450
 Window_APP_Extensions=10
