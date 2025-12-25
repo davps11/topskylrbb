@@ -7,3 +7,4 @@ scripts/
 *.rwy
 LRBB/NavData/*
 *.csv
+*.prf
