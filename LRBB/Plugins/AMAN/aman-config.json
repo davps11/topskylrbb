@@ -1,0 +1,110 @@
+{
+    "openAutomatically": true,
+    "timelines": {
+        "OP08L": {
+            "targetFixes": ["DILAS"],
+            "viaFixes": [
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU",
+                "TOSVI"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LROP"]
+        },
+        "OP08R": {
+            "targetFixes": ["OBELA"],
+            "viaFixes": [
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU",
+                "TOSVI"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LROP"]
+        },
+        "OP26L": {
+            "targetFixes": ["LEVTA"],
+            "viaFixes": [
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU",
+                "TOSVI"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LROP"]
+        },
+        "OP26R": {
+            "targetFixes": ["RARIT"],
+           "viaFixes": [
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU",
+                "TOSVI"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LROP"]
+        },
+        "BS07": {
+            "targetFixes": ["ADULI"],
+            "viaFixes": [
+                "ABRUT",
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LRBS"]
+        },
+        "BS25": {
+            "targetFixes": ["ABORA"],
+            "viaFixes": [
+                "ABRUT",
+                "DENAK",
+                "IDARU",
+                "NETUL",
+                "OBUGA",
+                "OSTAL",
+                "SORDU"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LRBS"]
+        }
+    },
+    "tagLayouts": {
+        "extended": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 10, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "directRouting", "width": 7, "defaultValue": "-----"  },
+            { "source": "timeBehindPreceeding", "width": 6 },
+            { "source": "remainingDistance", "width": 5, "rightAligned": true  }
+        ],
+        "simple": [
+            { "source": "callsign", "width": 8, "isViaFixIndicator": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true }
+        ]
+    }
+}
