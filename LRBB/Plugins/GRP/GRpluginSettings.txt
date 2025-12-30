@@ -43,6 +43,7 @@ Color_WSlider_Bg=143,143,143
 Color_WTitleBar=128,128,128
 Color_WTitleText=32,32,32
 
+Maps_URL=https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/GRP/GRpluginMaps.txt
 
 GroundLabel_Font=EuroScope
 GroundLabel_FontSize=11
