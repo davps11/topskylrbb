@@ -96,13 +96,13 @@ System_State_Taxi_Out=TAXI
 System_State_LineUp=LINUP
 System_State_Depa=DEPART
 System_State_DeIce=ICE
-System_State_Parked=PARKED
+System_State_Parked=PARK
 
 Equip_ProMode=0
 
 Equip_ModeS=WZLCISG
 System_AutoAssignDist=20
-System_AutoAssignDist=EPWA,50
+System_AutoAssignDist=LROP,50
 System_RwyArea=30
 System_RwyBufferArea=60
 System_UseReportedGS=1
@@ -123,6 +123,8 @@ Window_APP_AltFilter=6500
 Window_APP_Extensions_TickWidth=0.3
 Window_APP_Rotation=0
 Window_APP_DefPos=1469,505
+Window_METAR=1,520,135,425,70
+Window_QNH=1,990,130
 
 /--------------------TAG---------------------
 
