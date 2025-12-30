@@ -1,8 +1,6 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-
-
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -14,10 +12,10 @@ HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:257.00000
+DisplayRotation:179.00000
 TAGFAMILY:Matias (built in)
-WINDOWAREA:47.695703:22.862931:47.711753:22.906810
-PLUGIN:Ground Radar plugin:AirportElevation:414
+WINDOWAREA:45.780901:24.068398:45.793741:24.103501
+PLUGIN:Ground Radar plugin:AirportElevation:299
 PLUGIN:Ground Radar plugin:AirportRadius:2
-PLUGIN:Ground Radar plugin:GroundMode:LRSM
+PLUGIN:Ground Radar plugin:GroundMode:LRSB
 PLUGIN:TopSky plugin:NoDraw:0
