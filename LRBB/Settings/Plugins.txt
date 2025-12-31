@@ -2,8 +2,8 @@ PLUGINS
 Euroscope timers plugin:x:109
 Euroscope timers plugin:y:1145
 CCAMS:ACList/Mode S EHS/m_Visible:1
-CCAMS:ACList/Mode S EHS/m_X:781
-CCAMS:ACList/Mode S EHS/m_Y:24
+CCAMS:ACList/Mode S EHS/m_X:427
+CCAMS:ACList/Mode S EHS/m_Y:47
 CCAMS:ACList/Mode S EHS/m_LineNumber:0
 CCAMS:ACList/Mode S EHS/m_Resizable:1
 CCAMS:ACList/Mode S EHS/m_OrderingColumn:1
