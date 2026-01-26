@@ -91,6 +91,8 @@ List_TfcMgmt2_FPstate=3
 Malrt_Misap=G/A
 Malrt_Weather=WX
 
+Maps_URL=https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/TopSky/TopSkyMaps.txt
+
 Menu_DAPs=1
 Menu_AHDG_Rounding=5
 Menu_Level_MaxValue_10=410
