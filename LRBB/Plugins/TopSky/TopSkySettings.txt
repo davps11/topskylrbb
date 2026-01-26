@@ -106,7 +106,7 @@ MSAW_Filter=1
 MSAW_VFR=0
 
 RDF_Accuracy=2
-RDF_Mode=1
+RDF_Mode=-1
 RDF_Floor=-100
 
 RwyAppLines_Auto=0
