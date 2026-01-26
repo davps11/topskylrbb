@@ -9,7 +9,7 @@ m_HeaderOnly:0
 m_Column:PPS:4:1:1:0:0:1:Ground Radar plugin:::0:0.0
 m_Column:k:2:1:10130:27:122:1:TopSky plugin::TopSky plugin:0:0.0
 m_Column:R:1:1:63:0:0:1::::1:0.0
-m_Column:  C/S:8:0:22:8:1:1:TopSky plugin:::0:0.0
+m_Column:C/S:8:1:22:8:1:1:TopSky plugin:::0:0.0
 m_Column:C:2:0:80:32:0:1::::1:0.0
 m_Column:TYPE:7:0:78:0:0:1::::1:0.0
 m_Column:ADEP:5:1:61:7:0:1::::1:0.0
