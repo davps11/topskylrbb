@@ -1,3 +1,9 @@
+// ROVACC TOPSKY MAPS \\
+
+//    DO NOT EDIT     \\
+
+//VERSION:260126
+
 COLORDEF:text:20:20:20
 COLORDEF:taxiway:71:71:71
 COLORDEF:grass:28:28:28
