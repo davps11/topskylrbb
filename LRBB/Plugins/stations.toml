@@ -21,7 +21,7 @@ include = [
     "UKBV_CTR",
     "UKOV_CTR",
     "LR*",
-    "LU",
+    "LU*",
     "LHCC_CTR",
     "LHCC_U_CTR",
     "LHCC_K_CTR",
@@ -35,10 +35,6 @@ include = [
     "LBSR*",
     "LZBB_CTR",
     "LZBB_U_CTR",
-    "EPWW_CTR",
-    "EPWW_U_CTR",
-    "EPWW_R_CTR",
-    "EPWW_J_CTR",
 ]
 exclude = []
 priority = [
@@ -50,7 +46,7 @@ priority = [
 ]
 
 [stations.profiles.LRBB.aliases]
-"118.100" = "TWR RMO"
+"118.105" = "TWR RMO"
 "124.030" = "TWR CK"
 "130.250" = "ADR_E UPP"
 "129.230" = "BEO UPP"
@@ -65,9 +61,7 @@ priority = [
 "130.750" = "ADR UPP"
 "119.180" = "TWR MURES"
 "133.000" = "FIC BPS_E"
-"121.180" = "ACC DINAR"
 "118.630" = "TWR BRASOV"
-"127.075" = "ACC BANAP"
 "118.805" = "TWR OTOPENI"
 "120.420" = "BEO_E LOW"
 "118.455" = "TWR ORADEA"
@@ -79,7 +73,6 @@ priority = [
 "118.855" = "TWR BAIA_M"
 "132.950" = "VARNA_W"
 "130.550" = "ADR_E LOW"
-"122.030" = "ACC KONEL"
 "119.680" = "APP NAPOC_S"
 "123.775" = "BEO LOW"
 "119.350" = "FIC BPS_N"
@@ -87,28 +80,24 @@ priority = [
 "119.655" = "TWR SATU_M"
 "127.155" = "APP DIR"
 "127.860" = "BPS_E UPP 345+"
-"128.975" = "ACC MOLDO"
 "129.100" = "SOFIA_E"
 "135.555" = "BPS_N UPP 345+"
 "125.910" = "AFIS DEBRECEN"
 "119.955" = "TWR IASI"
 "132.790" = "BPS_E TOP 365+"
-"133.300" = "APP RMO"
+"133.305" = "APP RMO"
 "129.950" = "GND BANEASA"
 "121.855" = "GND OTOPENI"
 "127.025" = "MIL PERLA"
 "121.955" = "DEL OTOPENI"
-"130.230" = "ACC BUDMO"
 "130.600" = "FIC SOFIA"
-"132.865" = "ACC _365+"
-"121.800" = "GND RMO"
+"121.805" = "GND RMO"
 "130.000" = "ADR LOW"
 "119.415" = "APP BUC"
 "122.905" = "APP CK"
 "120.380" = "BPS_E LOWER"
 "133.535" = "BPS_W UPP 345+"
 "120.105" = "TWR TIMIS"
-"134.380" = "ACC _345+"
 "118.230" = "TWR ARAD"
 "122.100" = "MIL RUBIN"
 "131.225" = "SOFIA_W"
@@ -116,3 +105,11 @@ priority = [
 "129.400" = "FIC BUC"
 "126.430" = "APP NAPOC"
 "121.305" = "TWR SIBIU"
+"122.030" = "ACC BDBX RS"
+"134.435" = "ACC EAST RE"
+"125.765" = "ACC WEST RW"
+"128.980" = "ACC MOLDO"
+"132.740" = "ACC 345+ E"
+"133.630" = "ACC 345+ W"
+"135.360" = "ACC 365+ E"
+"132.865" = "ACC 365+ W"
