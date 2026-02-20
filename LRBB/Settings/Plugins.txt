@@ -11,6 +11,7 @@ CCAMS:ACList/Mode S EHS/m_Column_0:C/S:8:1:9:7:0:1:::
 CCAMS:ACList/Mode S EHS/m_Column_1:DSFL:5:1:403:0:0:1:TopSky plugin::
 CCAMS:ACList/Mode S EHS/m_Column_2:DIAS:5:1:405:0:0:1:TopSky plugin::
 CCAMS:ACList/Mode S EHS/m_Column_3:DMAC:5:1:404:0:0:1:TopSky plugin::
+RDF Plugin for Euroscope:Radius:40
 TopSky plugin:ACList/HOLDING LIST/m_Visible:0
 TopSky plugin:ACList/HOLDING LIST/m_X:20
 TopSky plugin:ACList/HOLDING LIST/m_Y:20
