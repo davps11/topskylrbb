@@ -38,38 +38,6 @@ TA_CIRCLE:7000:N045.41.12.657:E025.41.20.643:23
 
 
 // ##################################################################
-//                 LEVELS v0.1
-// ##################################################################
-
-// LRAR | ARAD
-LEVELS:LRAR:30
-
-// LRTR | TIMISOARA
-LEVELS:LRTR:30
-
-// LRBS | BANEASA INTL
-LEVELS:LRBS:15,25,30,35,40
-
-// LROP | HENRI COANDA INTL
-LEVELS:LROP:15,25,30,35,40
-
-// LRCK | CONSTANTA INTL
-LEVELS:LRCK:25,30,50,60
-
-// LRCL | CLUJ NAPOCA INTL
-LEVELS:LRCL:30,40,63
-
-// LRSB | SIBIU INTL
-LEVELS:LRSB:31,34,50,60
-
-// LRTM | TG MURES INTL
-LEVELS:LRTM:35,40
-
-// LUKK | CHISINAU INTL
-LEVELS:LUKK:25,30
-
-
-// ##################################################################
 //                 INITIAL CLIMB ALTITUDES v0.1
 // ##################################################################
 
