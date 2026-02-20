@@ -1,7 +1,6 @@
 PLUGINS
 Euroscope timers plugin:x:109
 Euroscope timers plugin:y:1145
-RDF Plugin for Euroscope:Radius:40
 TopSky plugin:ACList/HOLDING LIST/m_Visible:0
 TopSky plugin:ACList/HOLDING LIST/m_X:20
 TopSky plugin:ACList/HOLDING LIST/m_Y:20
@@ -103,4 +102,7 @@ TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
 TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+CDM Plugin:CDMWindowPositionX:1630
+CDM Plugin:CDMWindowPositionY:24
+CDM Plugin:CDMMinimized:1
 END
