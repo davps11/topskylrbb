@@ -29,7 +29,7 @@ COLORDEF:airway:32:32:32
 COLORDEF:warning1:176:135:111
 COLORDEF:warning2:252:227:152
 COLORDEF:park:64:64:64
-COLORDEF:star:61:42:13
+COLORDEF:star:191:119:10
 //COLORDEF:star1:56:9:38
 COLORDEF:iac:15:109:191
 COLORDEF:iac1:201:178:0
@@ -14469,7 +14469,8 @@ COORDPOLY:E9
 ///////////////////////       STARs         ////////////////////
 ////////////////////////////////////////////////////////////////
 
-COLORDEF:STAR1:103:64:12
+//COLORDEF:STAR1:103:64:12
+COLORDEF:STAR1:1:42:13
 COLORDEF:STAR2:96:26:21
 COLORDEF:PROC:100:100:100
 
