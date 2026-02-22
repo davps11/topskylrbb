@@ -98,7 +98,7 @@ System_State_Depa=DEPART
 System_State_DeIce=ICE
 System_State_Parked=PARK
 
-Equip_ProMode=0
+Equip_ProMode=1
 
 Equip_ModeS=WZLCISG
 System_AutoAssignDist=20
