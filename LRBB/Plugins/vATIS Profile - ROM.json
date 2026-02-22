@@ -1,6 +1,8 @@
 {
   "name": "LRBB",
   "id": "bdfbbaae-b373-4b92-a4af-26b0909a7402",
+  "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
+  "updateSerial": 2026022201,
   "composites": [
     {
       "id": "92ae7256-f67b-4fbb-b74b-dc51f0143cdd",
