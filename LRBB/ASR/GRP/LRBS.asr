@@ -20,4 +20,4 @@ WINDOWAREA:44.490982:26.072731:44.511045:26.127580
 PLUGIN:Ground Radar plugin:AirportElevation:299
 PLUGIN:Ground Radar plugin:AirportRadius:2
 PLUGIN:Ground Radar plugin:GroundMode:LRBS
-
+PLUGIN:TopSky plugin:NoDraw:0
