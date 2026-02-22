@@ -103,6 +103,7 @@ Equip_ProMode=1
 Equip_ModeS=WZLCISG
 System_AutoAssignDist=20
 System_AutoAssignDist=LROP,50
+System_NoDupeCodes=1000,1200,1234,2000,2200,7000,7500,7600,7700
 System_RwyArea=30
 System_RwyBufferArea=60
 System_UseReportedGS=1
@@ -259,7 +260,7 @@ System_APM=0
 System_RVM=0
 
 System_CMAC_HighSpeed_Info=40
-System_CMAC_HighSpeed=50
+System_CMAC_HighSpeed=40
 System_CMAC_NoTakeOffClr_Speed=25
 System_CMAC_NoTaxiClr_Speed_Info=10
 System_CMAC_NoContact_Distance_Info=4.0
