@@ -2,7 +2,7 @@
   "name": "LRBB",
   "id": "bdfbbaae-b373-4b92-a4af-26b0909a7402",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026031001,
+  "updateSerial": 2026046001,
   "composites": [
     {
       "id": "92ae7256-f67b-4fbb-b74b-dc51f0143cdd",
@@ -26,7 +26,7 @@
       "presets": [
         {
           "id": "797cea2c-79c9-4919-af7e-27d6c031f23d",
-          "name": "LRBS 07",
+          "name": "LRBS MIXED 07",
           "template": "BANEASA. ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. EXPECT VICTOR ARRIVALS FOR ILS DME APPROACH. RUNWAY 07 IN USE.  [TL]. BIRD CONCENTRATION IN AERODROME AREA. CAUTION. RUNWAY INCURSION HAZARD. PILOTS MUST NOT ENTER ON TAXIWAY ALPHA WITHOUT BEING INSTRUCTED TO DO SO. ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA LIMA. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED. WEATHER. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] . THIS IS BANEASA. [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -34,7 +34,7 @@
         },
         {
           "id": "b92ffc4d-d9a5-4eb0-8ae5-52142bc069d3",
-          "name": "LRBS 25",
+          "name": "LRBS MIXED 25",
           "template": "BANEASA. ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. EXPECT YANKEE ARRIVALS FOR ILS DME APPROACH. RUNWAY 25 IN USE.  [TL]. BIRD CONCENTRATION IN AERODROME AREA. CAUTION. RUNWAY INCURSION HAZARD. PILOTS MUST NOT ENTER ON TAXIWAY ALPHA WITHOUT BEING INSTRUCTED TO DO SO. WEATHER. ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA NOVEMBER. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] . THIS IS BANEASA. [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false
@@ -313,7 +313,7 @@
       "presets": [
         {
           "id": "c07b7ec9-10bb-4aa7-965a-bfa60794e705",
-          "name": "LRCL 07",
+          "name": "LRCL MIXED 07",
           "template": "THIS IS CLUJ. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 07 IN USE. EXPECT UNIFORM ARRIVALS FOR R NAV APP RWY 07. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -321,7 +321,7 @@
         },
         {
           "id": "8c0668ae-68d1-438d-8efe-357c90c1dbd1",
-          "name": "LRCL 25",
+          "name": "LRCL MIXED 25",
           "airportConditions": "",
           "notams": "",
           "template": "THIS IS CLUJ. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 25 IN USE. EXPECT XRAY ARRIVALS FOR ILS APP RWY 25. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
@@ -331,7 +331,7 @@
         },
         {
           "id": "0694a0fc-2954-42ab-8c4c-4b4044af88d5",
-          "name": "LRCL 07 depa / 25 arr",
+          "name": "LRCL SEG ARR 25 / DEP 07 (NIGHT)",
           "template": "THIS IS CLUJ. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT XRAY ARRIVALS FOR ILS APP RWY 25. DEP RWY 07. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -610,7 +610,7 @@
       "presets": [
         {
           "id": "82a2273d-99db-4db5-bc5b-ed8832c9e093",
-          "name": "LRCK 36",
+          "name": "LRCK MIXED 36",
           "template": "THIS IS +LRCK . ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 36 IN USE. EXP RNP APPROACH RWY 36. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -618,7 +618,7 @@
         },
         {
           "id": "a4ea2b99-0d22-49e4-93d5-f1a329323865",
-          "name": "LRCK 18",
+          "name": "LRCK MIXED 18",
           "notams": "",
           "template": "THIS IS +LRCK. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 18 IN USE. EXP RNP APPROACH RWY 18. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
@@ -627,7 +627,7 @@
         },
         {
           "id": "4dbec413-934f-42f1-988c-866e835713a1",
-          "name": "LRCK 36 depa / 18 arr",
+          "name": "LRCK SEG ARR 18 / DEP 36 (PREFERRED)",
           "airportConditions": "",
           "template": "THIS IS +LRCK. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXP RNP APPROACH RWY 18. DEP RWY 36. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
@@ -915,7 +915,7 @@
         },
         {
           "id": "1e39d2b4-b599-4add-ba50-4d12fea710f4",
-          "name": "LROP 08L depa / 08R arr",
+          "name": "LROP SEG ARR 08R / DEP 08L",
           "airportConditions": "",
           "template": "THIS IS BUCHAREST OTOPENI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT UNIFORM ARRIVALS FOR ILS APP RWY 08R. DEP RWY 08L.  ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA KILO. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
@@ -924,7 +924,7 @@
         },
         {
           "id": "b6eede84-040e-41e3-a285-543a81e6ce07",
-          "name": "LROP 08R depa / 08L arr",
+          "name": "LROP SEG ARR 08L / DEP 08R",
           "template": "THIS IS BUCHAREST OTOPENI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT UNIFORM ARRIVALS FOR ILS APP RWY 08L. DEP RWY 08R.  ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA KILO. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED. [TL] . WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] . WHEN READY FOR PUSHBACK TAXI REPORT IF ABLE GOLF INTERSECTION FOR DEPARTURE. ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -948,7 +948,7 @@
         },
         {
           "id": "2f34982c-b318-4080-a162-c3e3b34a25dd",
-          "name": "LROP 26R depa / 26L arr",
+          "name": "LROP SEG ARR 26L / DEP 26R",
           "template": "THIS IS BUCHAREST OTOPENI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT XRAY ARRIVALS FOR ILS APP RWY 26L. DEP RWY 26R.  ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA MIKE. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -964,7 +964,7 @@
         },
         {
           "id": "146a80f4-fb2e-49dd-a73d-ce3f6ecf10c1",
-          "name": "LROP 26L DEPA / 26R ARR",
+          "name": "LROP SEG ARR 26R / DEP 26L",
           "template": "THIS IS BUCHAREST OTOPENI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT XRAY ARRIVALS FOR ILS APP RWY 26R. DEP RWY 26L. ALL CONVENTIONAL PROCEDURES ARE SUSPENDED. EXPECT DEPARTURES VIA MIKE. NON PRIMARY RNAV AIRCRAFT WILL BE VECTORED.[TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] . WHEN READY FOR PUSHBACK TAXI REPORT IF ABLE DELTA INTERSECTION FOR DEPARTURE . ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1243,7 +1243,7 @@
       "presets": [
         {
           "id": "06a07f59-deb3-4b68-80cf-c2634a2fc567",
-          "name": "LRSB 09",
+          "name": "LRSB MIXED 09",
           "template": "THIS IS [FACILITY] . ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 09 IN USE. EXP ROMEO ARRIVALS FOR NDB APP RWY 09. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1251,7 +1251,7 @@
         },
         {
           "id": "a03c87dd-8da6-4bb4-8223-2e4eead3df1e",
-          "name": "LRSB 27",
+          "name": "LRSB MIXED 27",
           "template": "THIS IS [FACILITY] ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 27 IN USE. EXPECT SIERRA ARRIVALS FOR ILS APP RWY 27. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1259,7 +1259,7 @@
         },
         {
           "id": "13d4f563-fe7a-460a-87bc-e5a650437e6d",
-          "name": "LRSB 27 depa / 09 arr",
+          "name": "LRSB SEG 09 ARR / DEP 27",
           "template": "THIS IS [FACILITY] ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT SIERRA ARRIVALS FOR NDB APP RWY 09. DEP RWY 27. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1538,7 +1538,7 @@
       "presets": [
         {
           "id": "ac56ae1d-34e8-4336-be9b-7a47b664cb88",
-          "name": "LRTM 07",
+          "name": "LRTM MIXED 07",
           "template": "TRANSILVANIA AIRPORT. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 07 IN USE. EXPECT VICTOR ARRIVALS FOR ILS APP OR NDB APP RWY 07. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1546,7 +1546,7 @@
         },
         {
           "id": "6f5c8be0-fcc2-432a-89c9-9a19f24b8d6b",
-          "name": "LRTM 25",
+          "name": "LRTM MIXED 25",
           "template": "TRANSILVANIA AIRPORT. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 25 IN USE. EXPECT YANKEE ARRIVALS FOR NDB APP RWY 25. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1554,7 +1554,7 @@
         },
         {
           "id": "78b1b289-2b9d-4b55-b10a-71a095e7a232",
-          "name": "LRTM 25 depa / 07 arr",
+          "name": "LRTM SEG ARR 07 / DEP 25 (PREFERRED)",
           "template": "TRANSILVANIA AIRPORT. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT VICTOR ARRIVALS FOR ILS APP RWY 07. DEP RWY 25. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1833,7 +1833,7 @@
       "presets": [
         {
           "id": "401f8c50-b887-486c-bf25-c3a1cd417044",
-          "name": "LRTR 11",
+          "name": "LRTR MIXED 11",
           "template": "THIS IS TIMISOARA AIRPORT. ATIS INFO [ATIS_CODE]. EXPECT BRAVO ARRIVALS FOR ILS APP RWY 11 IN USE.. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1841,7 +1841,7 @@
         },
         {
           "id": "1d897e51-7a28-410f-b5eb-32ed83af59c3",
-          "name": "LRTR 29",
+          "name": "LRTR MIXED 29",
           "template": "THIS IS TIMISOARA AIRPORT. ATIS INFO [ATIS_CODE]. EXPECT ALPHA ARRIVALS FOR ILS APP RWY 29 IN USE.. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -1849,7 +1849,7 @@
         },
         {
           "id": "0352e6d8-ed86-4413-926c-bad4365cf654",
-          "name": "LRTR 11 depa / 29 arr",
+          "name": "LRTR SEG ARR 29 / DEP 11",
           "template": "THIS IS TIMISOARA AIRPORT. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. EXPECT ALPHA ARRIVALS FOR ILS APP RWY 29. DEP RWY 11. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] ADVISE ON INITIAL CONTACT, YOU HAVE INFO [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -2128,16 +2128,40 @@
       "presets": [
         {
           "id": "156fdb78-85f2-4eb7-8838-7d35291650d7",
-          "name": "LUKK 08",
-          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. MET REPORT AT [OBS_TIME] UTC. RWY 08 IN USE. [TL]. RWY 09 AND 27 IS USED AS TAXIWAY DELTA. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
+          "name": "LUKK MIXED 08",
+          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. RWY 08 IN USE. MET REPORT AT [OBS_TIME] UTC.  [TL]. RWY 09 AND 27 IS USED AS TAXIWAY DELTA. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "id": "fa627095-8ece-4f74-8561-1b5c3304e674",
-          "name": "LUKK 26",
-          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. MET REPORT AT [OBS_TIME] UTC. RWY 26 IN USE. [TL]. RWY 09 AND 27 IS USED AS TAXIWAY DELTA. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
+          "name": "LUKK MIXED 26",
+          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. RWY 26 IN USE. MET REPORT AT [OBS_TIME] UTC.  [TL]. RWY 09 AND 27 IS USED AS TAXIWAY DELTA. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "fa627095-8ece-4f74-8561-1b5c3304e674",
+          "name": "LUKK SEG ARR 08 / DEP 26",
+          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. RWY 08. DEPARTURE RUNWAY 26. MET REPORT AT [OBS_TIME] UTC.  [TL]. RWY 09 AND 27 IS USED AS TAXIWAY DELTA. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "156fdb78-85f2-4eb7-8838-7d35291650d7",
+          "name": "LUKK MIXED 09 (TWY D AS RWY)",
+          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT ILS APP.. RWY 09 IN USE. MET REPORT AT [OBS_TIME] UTC.  [TL]. RWY 08 AND 26 CLOSED. TWY A CLOSED. TWY B CLOSED. TWY C1 CLOSED. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "fa627095-8ece-4f74-8561-1b5c3304e674",
+          "name": "LUKK MIXED 27 (TWY D AS RWY)",
+          "template": "CHISINAU. ATIS INFO [ATIS_CODE]. EXPECT RNP APP.. RWY 27 IN USE. MET REPORT AT [OBS_TIME] UTC.  [TL]. RWY 08 AND 26 CLOSED. TWY A CLOSED. TWY B CLOSED. TWY C1 CLOSED. CAUTION FLOCKS OF BIRDS IN THE VECINITY .[FULL_WX_STRING]-HPA. THIS WAS CHISINAU. ATIS INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
           }
@@ -2403,7 +2427,7 @@
       "presets": [
         {
           "id": "20ef9879-3113-4620-aa87-6b79f74e8b40",
-          "name": "LRIA 14",
+          "name": "LRIA MIXED 14",
           "template": "THIS IS IASI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 14 IN USE. EXP ILS YANKEE APP OR RNP APP RWY 14. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2411,7 +2435,7 @@
         },
         {
           "id": "b8f802a1-9b51-49ae-8056-3e2ab0abece6",
-          "name": "LRIA 32",
+          "name": "LRIA MIXED 32",
           "template": "THIS IS IASI. ATIS INFO [ATIS_CODE], AT [OBS_TIME] UTC. RWY 32 IN USE. EXP RNP APP OR NDB APP RWY 32. [TL]. WEATHER AT [OBS_TIME]UTC. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2690,7 +2714,7 @@
       "presets": [
         {
           "id": "d75671d0-d8d9-427b-a8a7-ba280474185a",
-          "name": "03 DEP / 21 ARR",
+          "name": "LRBV SEG ARR 21 / DEP 03",
           "template": "BRASOV. ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. EXPECT ILS DME APPROACH RUNWAY 21. DEPARTURE RUNWAY 03. [TL]. BIRD CONCENTRATION IN AERODROME AREA. CAUTION. VFR AIRFIELD SOUTH EAST OF THE AERODROME, PARALLEL GRASS RUNWAY. WEATHER. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] .  INFORMATION. [ATIS_CODE] BRASOV OUT",
           "externalGenerator": {
             "enabled": false
@@ -2698,7 +2722,7 @@
         },
         {
           "id": "fe6b577e-7928-4611-86e1-524152de03b8",
-          "name": "03",
+          "name": "LRBV MIXED 03",
           "template": "BRASOV. ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. EXPECT RNP APPROACH RUNWAY 03 IN USE. [TL]. BIRD CONCENTRATION IN AERODROME AREA. AFTER LANDING BACKTRACK IS APPROVED, TAXI OUT VIA ALPHA. CAUTION. VFR AIRFIELD SOUTH EAST OF THE AERODROME, PARALLEL GRASS RUNWAY. WEATHER. [FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] .  INFORMATION. [ATIS_CODE] BRASOV OUT",
           "externalGenerator": {
             "enabled": false
@@ -2706,7 +2730,7 @@
         },
         {
           "id": "0aa8d370-4fcb-43e1-b410-0ac045cbd0c7",
-          "name": "21",
+          "name": "LRBV MIXED 21",
           "template": "BRASOV. ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. EXPECT ILS DME APPROACH RUNWAY 21 IN USE. [TL]. BIRD CONCENTRATION IN AERODROME AREA. CAUTION. VFR AIRFIELD SOUTH EAST OF THE AERODROME, PARALLEL GRASS RUNWAY. WEATHER.[FULL_WX_STRING]-HPA. [ARPT_COND] [NOTAMS] .  INFORMATION. [ATIS_CODE] BRASOV OUT",
           "externalGenerator": {
             "enabled": false
