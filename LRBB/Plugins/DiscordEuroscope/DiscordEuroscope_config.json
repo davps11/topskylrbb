@@ -1,0 +1,133 @@
+{
+    "discord_appid": "1499009267674386452",
+    "discord_presence_large_image_key": "rovacc_logo",
+    "discord_presence_small_image_key": "rovacc_logo",
+    "sweatbox_bypass": false,
+
+    "buttons": [
+        {
+            "label": "ROvACC Website",
+            "url": "https://rovacc.ro"
+        }
+    ],
+
+    "states": {
+        "idle": {
+            "presence_small_image_key": "rovacc_logo",
+            "presence_large_image_key": "rovacc_logo",
+            "state": "Idle",
+            "details": "Standing by",
+            "presence_small_image_text": "",
+            "presence_large_image_text": ""
+        },
+
+        "playback": {
+            "presence_small_image_key": "rovacc_logo",
+            "presence_large_image_key": "rovacc_logo",
+            "state": "Playback",
+            "details": "Reviewing traffic",
+            "presence_small_image_text": "",
+            "presence_large_image_text": ""
+        },
+
+        "sweatbox": {
+            "presence_small_image_key": "rovacc_logo",
+            "presence_large_image_key": "rovacc_logo",
+            "state": "Training",
+            "details": "Sweatbox session",
+            "presence_small_image_text": "",
+            "presence_large_image_text": ""
+        },
+
+        "direct": {
+            "presence_small_image_key": "rovacc_logo",
+            "presence_large_image_key": "rovacc_logo",
+            "state": "Online",
+            "details": "Monitoring traffic",
+            "presence_small_image_text": "",
+            "presence_large_image_text": "",
+
+            "if_observer": {
+                "presence_small_image_key": "rovacc_logo",
+                "presence_large_image_key": "rovacc_logo",
+                "state": "Aircraft in range: {total_inrange}",
+                "details": "Observing as {callsign}",
+                "presence_small_image_text": "",
+                "presence_large_image_text": ""
+            },
+
+            "if_controller": {
+                "presence_small_image_key": "rovacc_logo",
+                "presence_large_image_key": "rovacc_logo",
+                "state": "Controlling ({current_tracked} / {total_inrange})",
+                "details": "{rcallsign} {frequency} MHz",
+                "presence_small_image_text": "Tracks: {total_tracked}",
+                "presence_large_image_text": "{callsign}",
+                "buttons": [
+                    {
+                        "label": "Callsign stats",
+                        "url": "https://stats.vatsim.net/search/{callsign}"
+                    }
+                ]
+            },
+
+            "if_supervisor": {
+                "presence_small_image_key": "rovacc_logo",
+                "presence_large_image_key": "rovacc_logo",
+                "state": "Supervisor Online",
+                "details": "Supervising",
+                "presence_small_image_text": "",
+                "presence_large_image_text": ""
+            }
+        }
+    },
+
+    "radio_callsigns": {
+        "config": {
+            "load_from_ese": false,
+            "path_to_ese": ".."
+        },
+
+        "custom_callsigns": {
+            "LRAR_APP": "Arad Approach",
+            "LRAR_TWR": "Arad Tower",
+            "LRBB_CTR": "Bucharest Radar",
+            "LRBB_E_CTR": "Bucharest Radar",
+            "LRBB_FMP": "Bucharest FMP",
+            "LRBB_G_CTR": "Bucharest Radar",
+            "LRBB_H_CTR": "Bucharest Radar",
+            "LRBB_I_CTR": "Bucharest Information",
+            "LRBB_U_CTR": "Bucharest Radar",
+            "LRBB_V_CTR": "Bucharest Radar",
+            "LRBB_W_CTR": "Bucharest Radar",
+            "LRBC_TWR": "Bacau Tower",
+            "LRBM_TWR": "Baia Mare Tower",
+            "LRBO_TWR": "Safir Tower",
+            "LRBS_GND": "Baneasa Ground",
+            "LRBS_TWR": "Baneasa Tower",
+            "LRBV_TWR": "Brasov Tower",
+            "LRCK_APP": "Constanta Approach",
+            "LRCK_P_APP": "Perla Approach",
+            "LRCK_TWR": "Constanta Tower",
+            "LRCL_APP": "Napoc Approach",
+            "LRCL_S_APP": "Napoc South Approach",
+            "LRCL_TWR": "Cluj Tower",
+            "LRCV_TWR": "Craiova Tower",
+            "LRFT_TWR": "Rubin Tower",
+            "LRIA_TWR": "Iasi Tower",
+            "LROD_TWR": "Oradea Tower",
+            "LROP_APP": "Bucharest Approach",
+            "LROP_DEL": "Otopeni Delivery",
+            "LROP_F_APP": "Bucharest Director",
+            "LROP_GND": "Otopeni Ground",
+            "LROP_TWR": "Otopeni Tower",
+            "LRSB_TWR": "Sibiu Tower",
+            "LRSM_TWR": "Satu Mare Tower",
+            "LRSV_TWR": "Suceava Tower",
+            "LRTC_TWR": "Tulcea Tower",
+            "LRTM_TWR": "Targu Mures Tower",
+            "LRTR_GND": "Timisoara Ground",
+            "LRTR_TWR": "Timisoara Tower"
+        }
+    }
+}
