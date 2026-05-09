@@ -127,7 +127,11 @@
             "LRTC_TWR": "Tulcea Tower",
             "LRTM_TWR": "Targu Mures Tower",
             "LRTR_GND": "Timisoara Ground",
-            "LRTR_TWR": "Timisoara Tower"
+            "LRTR_TWR": "Timisoara Tower",
+            "LUKK_TWR": "Chisinau Tower",
+            "LUKK_APP": "Chisinau Approach",
+            "LUKK_GND": "Chisinau Ground",
+            "LUUU_CTR": "Chisinau Control"
         }
     }
 }
