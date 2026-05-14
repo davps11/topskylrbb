@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <CDM>
     <rate ops="20" />
-    <rateLvo ops="10" />
-    <expiredCtot time="5" />
+    <rateLvo ops="12" />
+    <expiredCtot time="25" />
     <realMode mode="true" />
     <bmi mode="false"/>
     <pilotTobt mode="true" />
     <autoAtot mode="false" />
-    <invalidateAtTsat mode="true" />
-    <invalidateAtTobt mode="false" />
-    <readySetTsac mode="true"/>
+    <invalidateAtTsat mode="false" />
+    <invalidateAtTobt mode="true" />
+    <readySetTsac mode="false"/>
     <Rates url="https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/CDM/Rates.txt" />
     <Taxizones url="https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/CDM/taxizones.txt" />
     <Ctot url="https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/CDM/Ctot.txt" />
@@ -27,4 +27,10 @@
     <sftpConnection mode="false" />
     <Server mode="true" />
     <Su_Wait mode="false" />
+    <flashingMode tobtLastMin="true" tsatFirstMin="false" tsatLastMin="false"/>
+    <reqTobtPriority mode="false"/>
+    <eventPriority mode="false"/>
+    <autoSetTobtFromEvSlot mode="false"/>
+    <remarksOptionCtot mode="false"/>
+    <PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]"/>
 </CDM>
