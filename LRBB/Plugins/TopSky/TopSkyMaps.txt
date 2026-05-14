@@ -2,9 +2,9 @@
 ; AUTO-GENERATED FILE
 ; Source: sector builder by tgpetrica
 ; Changes made directly to this file will be lost during the next build.
-; Compiled at 2026-05-14T08:31:15
+; Compiled at 2026-05-14T09:09:12
 
-//VERSION:2026051401
+//VERSION:2026051402
 
 ; ===== 00-general/001-colors =====
 //COLORDEF:sectorborder:0:0:0
@@ -30,7 +30,7 @@ COLORDEF:taxiway:71:71:71
 COLORDEF:grass:28:28:28
 COLORDEF:hangar:33:40:59
 //
-COLORDEF:ciz:104:110:132
+COLORDEF:ciz:153:153:153
 
 ; ===== 00-general/002-override =====
 OVERRIDE_SCT_MAP:MISC
